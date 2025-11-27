@@ -129,7 +129,7 @@ const Hero = ({ openBooking }) => (
     {/* Hero Footer */}
     <div className="absolute bottom-0 w-full border-t border-white/10 bg-black/20 backdrop-blur-sm py-6">
       <div className="container mx-auto px-6 flex justify-between text-white/60 text-xs tracking-widest uppercase">
-        <div className="hidden md:block">© 2024 Johanna Luxe</div>
+        <div className="hidden md:block">© 2025 Johanna Luxe</div>
         <div className="flex gap-8 mx-auto md:mx-0">
           <span>Daily 10AM - 8PM</span>
           <span className="hidden md:inline">•</span>
@@ -166,7 +166,7 @@ const Intro = () => {
           <div ref={ref} className={`relative z-10 transition-all duration-1000 ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-20'}`}>
             <SectionHeader title="The Art of Beauty" subtitle="About Us" align="left" />
             <p className="text-zinc-600 leading-relaxed mb-6 text-lg font-light">
-              At Johanna Luxe, we don't just style hair; we curate confidence. Located in the heart of Bangalore's luxury district, our sanctuary offers a retreat from the chaos of the city.
+              At Johanna Luxe, we don't just style hair; we curate confidence.
             </p>
             <p className="text-zinc-600 leading-relaxed mb-8 text-lg font-light">
               Our philosophy is rooted in <span className="font-serif italic text-black">intentional beauty</span>—using sustainable, premium products that nourish while they transform.
@@ -358,7 +358,7 @@ const Footer = () => (
 
       {/* Bottom Bar */}
       <div className="pt-8 border-t border-zinc-900 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-zinc-600 uppercase tracking-wider">
-        <p>&copy; 2024 Johanna Luxe. All Rights Reserved.</p>
+        <p>&copy; 2025 Johanna Luxe. All Rights Reserved.</p>
         <div className="flex gap-8">
           <a href="#" className="hover:text-zinc-400">Privacy Policy</a>
           <a href="#" className="hover:text-zinc-400">Terms of Service</a>
