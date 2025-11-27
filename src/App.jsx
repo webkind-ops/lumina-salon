@@ -81,7 +81,7 @@ const Navbar = ({ openBooking, scrolled }) => (
   <nav className={`fixed w-full z-50 transition-all duration-500 ${scrolled ? 'bg-white/90 backdrop-blur-md py-4 shadow-sm' : 'bg-transparent py-8'}`}>
     <div className="container mx-auto px-6 flex justify-between items-center">
       <div className={`text-2xl font-serif tracking-widest font-bold ${scrolled ? 'text-black' : 'text-white'}`}>
-        LUMINA<span className="text-[#C6A355]">.</span>
+        JOHANNA LUXE<span className="text-[#C6A355]">.</span>
       </div>
       <div className="hidden md:flex items-center gap-8">
         {['Services', 'Collection', 'About', 'Journal'].map(item => (
@@ -112,7 +112,7 @@ const Hero = ({ openBooking }) => (
     
     <div className="relative z-10 text-center max-w-5xl px-6 mt-12">
       <p className="text-[#C6A355] text-xs md:text-sm font-bold tracking-[0.3em] uppercase mb-6 animate-fade-in-up">
-        Est. 2010 • Indiranagar, Bangalore
+        Est. 2025 • Ramprastha , DELHI-NCR
       </p>
       <h1 className="text-6xl md:text-8xl lg:text-9xl font-serif text-white mb-8 leading-[0.9] tracking-tight animate-fade-in-up animation-delay-100">
         DEFINING <br/> <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#C6A355] via-[#E8D397] to-[#C6A355] italic">ELEGANCE</span>
@@ -129,7 +129,7 @@ const Hero = ({ openBooking }) => (
     {/* Hero Footer */}
     <div className="absolute bottom-0 w-full border-t border-white/10 bg-black/20 backdrop-blur-sm py-6">
       <div className="container mx-auto px-6 flex justify-between text-white/60 text-xs tracking-widest uppercase">
-        <div className="hidden md:block">© 2024 Lumina Luxe</div>
+        <div className="hidden md:block">© 2024 Johanna Luxe</div>
         <div className="flex gap-8 mx-auto md:mx-0">
           <span>Daily 10AM - 8PM</span>
           <span className="hidden md:inline">•</span>
@@ -166,7 +166,7 @@ const Intro = () => {
           <div ref={ref} className={`relative z-10 transition-all duration-1000 ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-20'}`}>
             <SectionHeader title="The Art of Beauty" subtitle="About Us" align="left" />
             <p className="text-zinc-600 leading-relaxed mb-6 text-lg font-light">
-              At Lumina, we don't just style hair; we curate confidence. Located in the heart of Bangalore's luxury district, our sanctuary offers a retreat from the chaos of the city.
+              At Johanna Luxe, we don't just style hair; we curate confidence. Located in the heart of Bangalore's luxury district, our sanctuary offers a retreat from the chaos of the city.
             </p>
             <p className="text-zinc-600 leading-relaxed mb-8 text-lg font-light">
               Our philosophy is rooted in <span className="font-serif italic text-black">intentional beauty</span>—using sustainable, premium products that nourish while they transform.
@@ -299,7 +299,7 @@ const Footer = () => (
         {/* Brand */}
         <div>
           <h2 className="text-3xl font-serif tracking-widest font-bold mb-6">
-            LUMINA<span className="text-[#C6A355]">.</span>
+            JOHANNA LUXE<span className="text-[#C6A355]">.</span>
           </h2>
           <p className="text-zinc-500 text-sm leading-relaxed mb-8">
             Redefining the Indian salon experience with international standards, luxury products, and bespoke artistry.
@@ -332,15 +332,15 @@ const Footer = () => (
           <div className="space-y-6 text-sm text-zinc-400">
             <div className="flex gap-4">
               <MapPin className="shrink-0 text-white" size={20} />
-              <p>12/4, 100ft Road, Indiranagar,<br />Bangalore, KA 560038</p>
+              <p>C-181,<br />Ramprastha , 201011</p>
             </div>
             <div className="flex gap-4">
               <Phone className="shrink-0 text-white" size={20} />
-              <p>+91 80 4567 8900</p>
+              <p>+91 93 1111 5011</p>
             </div>
             <div className="flex gap-4">
               <Mail className="shrink-0 text-white" size={20} />
-              <p>concierge@luminaluxe.in</p>
+              <p>concierge@johannaluxe.in</p>
             </div>
           </div>
         </div>
@@ -358,7 +358,7 @@ const Footer = () => (
 
       {/* Bottom Bar */}
       <div className="pt-8 border-t border-zinc-900 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-zinc-600 uppercase tracking-wider">
-        <p>&copy; 2024 Lumina Luxe. All Rights Reserved.</p>
+        <p>&copy; 2024 Johanna Luxe. All Rights Reserved.</p>
         <div className="flex gap-8">
           <a href="#" className="hover:text-zinc-400">Privacy Policy</a>
           <a href="#" className="hover:text-zinc-400">Terms of Service</a>
@@ -382,7 +382,7 @@ const BookingModal = ({ isOpen, onClose, selectedService }) => {
             <img src="https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&q=80&w=400" className="absolute inset-0 w-full h-full object-cover opacity-60" alt="" />
             <div className="relative z-10 p-8 text-white h-full flex flex-col justify-between">
               <div>
-                <h3 className="text-2xl font-serif mb-2">LUMINA.</h3>
+                <h3 className="text-2xl font-serif mb-2">JOHANNA LUXE.</h3>
                 <p className="text-xs uppercase tracking-widest text-[#C6A355]">Reservation</p>
               </div>
               <div className="text-xs text-white/60">
